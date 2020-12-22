@@ -86,7 +86,7 @@ func main() {
 		return
 	}
 	log.Println(info)
-	result :=  fmt.Sprintf("http://pic.llsong.xyz:9000/%s/%s",bucketName,objectName)
+	result :=  fmt.Sprintf("![%s](http://pic.llsong.xyz:9000/%s/%s)",filename,bucketName,objectName)
 	fmt.Println(result)
 
 	// 拷贝到剪贴板
